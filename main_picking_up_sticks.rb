@@ -1,4 +1,5 @@
 require_relative 'class_picking_up_sticks'
+testing git hub testing git hub testing git hub 
 
 def main()
   sticks_left = 0
@@ -7,7 +8,7 @@ def main()
   player1 = gets.chomp.capitalize
   puts "Who is your opponent?"
   player2 = gets.chomp.capitalize
-  puts "How many sticks do you want to start with? \nChoose 1-20."
+  puts "How many sticks do you want to start with? \nChoose 1-100."
   starting_stick_count = gets.chomp.to_i
   begin
     game1 = SticksGame.new(player1, player2, starting_stick_count)
